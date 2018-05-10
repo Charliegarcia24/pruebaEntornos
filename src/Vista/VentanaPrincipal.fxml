@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="Vista.VentanaPrincipalController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagenes/logo5.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btForjar" layoutX="65.0" layoutY="41.0" mnemonicParsing="false" onAction="#forjarArma" text="Forjar Arma" />
+      <Button fx:id="btListar" layoutX="469.0" layoutY="284.0" mnemonicParsing="false" onAction="#listarArmas" text="Inventario" />
+      <Button fx:id="btDestruir" layoutX="469.0" layoutY="41.0" mnemonicParsing="false" onAction="#destruirArmas" text="Destruir Arma" />
+      <Button fx:id="btEncantar" layoutX="65.0" layoutY="284.0" mnemonicParsing="false" onAction="#encantarArma" text="Encantar Arma" />
+   </children>
+</AnchorPane>
